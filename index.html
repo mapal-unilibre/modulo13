@@ -12,12 +12,27 @@
     <br>
 
     <script>
-
+        
+        // Función simple
         function saludo(){
             document.write("Hola, como estas?, bienvenido!!!");
         }  
-        
+                
         saludo();
+
+        /**
+         * Función con parámetros
+         * Este método se utiliza para sumar dos valores positivos.
+         * param a number    Este argumento recibe un valor numerico entero positivo
+         * param b number    Este argumento recibe un valor numerico entero positivo
+         * return number     Retorna el resultado de la suma de los argumentos y su valor siempre es positivo
+         */ 
+        function suma(a, b){
+            return a + b;  
+        }
+
+        let resultado = suma(8, 5);
+        document.write("La suma es:" + resultado);
         
     </script>
 
